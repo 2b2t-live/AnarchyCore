@@ -1,0 +1,7 @@
+main: com.tbttk.anarchycore.Main
+name: 2b2t-AntiCheat
+version: 0.01
+description: 
+author: 7753
+commands:
+  elytra:
