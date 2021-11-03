@@ -29,7 +29,6 @@ public class ElytraCommand implements CommandExecutor{
 							if(Main.bypass.containsKey(p.getUniqueId())) {
 								Main.bypass.remove(p.getUniqueId());
 								p.sendMessage(ChatColor.GOLD + "Removed {" + ChatColor.YELLOW+p.getUniqueId()+ChatColor.GOLD + "} from the bypass array");
-								
 							}
 						}
 				    	}else if(arg[0].equalsIgnoreCase("notif")) {
